@@ -8,7 +8,7 @@ import java.util.Map;
  */
 public class DriverApp {
     /* How many times to run each operation and average the results. */
-    static int N_TIMES = 100;
+    static int N_TIMES = 10_000;
 
     public static void main(String[] args) {
         String keyFound = "one";
