@@ -1,7 +1,7 @@
 # Java8MapImprovements
 Looks at the improvements in Map interface in Java 8.
 
-This is the accompanying code for my blog post here which looks at the performance implications of using the following `Map` additions in Java 8:
+This is the accompanying code for [my blog post here](http://liviutudor.com/2016/06/16/java-8-map-and-the-unknown-niceties/) which looks at the performance implications of using the following `Map` additions in Java 8:
 
 * `getOrDefault`
 * `computeIfAbsent`
@@ -18,3 +18,6 @@ The code will produce timing measurements in nanoseconds and write them to *stdo
 ```gradle run > output.csv```
 
 In fact, the code contains the performance timing measurements of this after running them on my Mac, in [Excel format](https://github.com/liviutudor/Java8MapImprovements/blob/master/output.xlsx) and [CSV format](https://github.com/liviutudor/Java8MapImprovements/blob/master/output.csv).
+
+See my original blog post here: http://liviutudor.com/2016/06/16/java-8-map-and-the-unknown-niceties/
+
